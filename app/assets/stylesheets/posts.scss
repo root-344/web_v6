@@ -1,0 +1,74 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//リセットcss
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+ul,li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+//ヘッダー部分
+.header-bar {
+  display: flex;
+  width: 100vw; 
+  height: 10vh;
+  background-color: aqua; 
+
+  .title {
+    width: 10%;
+    height: 100%;
+    background-color: bisque;
+  }
+  .sign-up-btn {
+    width: 10%;
+    height: 100%;
+    background-color: brown;
+  }
+  .login-btn {
+    width: 10%;
+    height: 100%;
+    background-color: burlywood;
+  }
+  .contents {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: cornsilk;
+
+    .content {
+      width: calc(100% / 4);
+      height: 100%;
+      background-color: crimson;
+    }
+  }
+}
+
+.main {
+  width: 100vw;
+  height: 85vh;
+  background-color: darkcyan;
+}
+footer {
+  height: 5vh;
+  background-color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
