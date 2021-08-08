@@ -31,38 +31,51 @@ ul,li {
   background-color: aqua; 
 
   .title {
-    width: 10%;
+    width: calc(100% / 3);
     height: 100%;
     background-color: bisque;
   }
   .sign-up-btn {
-    width: 10%;
+    width: calc(100% / 3);
     height: 100%;
     background-color: brown;
   }
   .login-btn {
-    width: 10%;
+    width: calc(100% / 3);
     height: 100%;
     background-color: burlywood;
-  }
-  .contents {
-    display: flex;
-    width: 70%;
-    height: 100%;
-    background-color: cornsilk;
-
-    .content {
-      width: calc(100% / 4);
-      height: 100%;
-      background-color: crimson;
-    }
   }
 }
 
 .main {
   width: 100vw;
   height: 85vh;
+  display: flex;
   background-color: darkcyan;
+
+  .side-bar {
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+
+    .contents {
+      width: 100%;
+      height: 100%;
+      background-color: cornsilk;
+  
+      .content {
+        width: 100%;
+        height: calc(100% / 4);
+        background-color: crimson;
+      }
+    }
+  
+  }
+  .main-wrapper {
+    width: 80%;
+    height: 100%;
+    background-color: azure;
+  }
 }
 footer {
   height: 5vh;
