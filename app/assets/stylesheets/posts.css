@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   color: #333;
   margin: 0 auto;
+  background-color: rgba(17, 1, 17, 0.8);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -26,7 +27,6 @@ ul, li {
   width: 100vw;
   height: 10vh;
   color: beige;
-  background-color: rgba(17, 1, 17, 0.8);
 }
 
 .header-bar .title {
@@ -134,7 +134,6 @@ ul, li {
   width: 20%;
   height: 100%;
   color: beige;
-  background-color: rgba(17, 1, 17, 0.8);
 }
 
 .main .side-bar .contents {
@@ -194,5 +193,4 @@ footer {
   justify-content: center;
   align-items: center;
   color: beige;
-  background-color: rgba(17, 1, 17, 0.8);
 }
