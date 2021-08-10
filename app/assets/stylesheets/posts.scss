@@ -156,10 +156,38 @@ ul,li {
     width: 80%;
     height: 100%;
     background-color: azure;
+    overflow: auto;
 
-    .main-img {
+    .container {
       width: 100%;
-      height: 100%;
+      height: 50vh;
+      margin-bottom: 5px;
+    
+
+      .main-img1 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }
+      .main-img2 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }
+      .main-img3 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }
+      .main-img4 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }           
     }
   }
 }

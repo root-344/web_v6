@@ -157,11 +157,41 @@ ul, li {
   width: 80%;
   height: 100%;
   background-color: azure;
+  overflow: auto;
 }
 
-.main .main-wrapper .main-img {
+.main .main-wrapper .container {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 5px;
+}
+
+.main .main-wrapper .container .main-img1 {
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+}
+
+.main .main-wrapper .container .main-img2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+}
+
+.main .main-wrapper .container .main-img3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+}
+
+.main .main-wrapper .container .main-img4 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
 }
 
 footer {
