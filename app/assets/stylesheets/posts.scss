@@ -12,6 +12,7 @@ body {
   font-size: 14px;
   color: #333;
   margin: 0 auto;
+  background-color: rgba(17, 1, 17, 0.8); 
 }
 h1,h2,h3,h4,h5,h6,p {
   padding: 10px 0;
@@ -28,9 +29,8 @@ ul,li {
   display: flex;
   width: 100vw; 
   height: 10vh;
-  position: sticky;
-    top: 0;
-  background-color: aqua; 
+  color: beige;
+  
 
   .title {
     width: calc(100% / 3);
@@ -38,7 +38,6 @@ ul,li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
 
     .title-name {
       font-size: 20px;
@@ -52,7 +51,6 @@ ul,li {
     display: flex;
     justify-content: center;
     align-items:center ;
-    background-color: brown;
   }
   .login-btn {
     width: calc(100% / 3);
@@ -60,7 +58,6 @@ ul,li {
     display: flex;
     justify-content: center;
     align-items:center ;
-    background-color: burlywood;
   }
 }
 // モーダル
@@ -128,26 +125,25 @@ ul,li {
   margin-right: 5px;
 }
 
+//メイン
 .main {
   width: 100vw;
   height: 85vh;
   display: flex;
-  background-color: darkcyan;
 
   .side-bar {
     width: 20%;
     height: 100%;
-    background-color: aquamarine;
+    color: beige;
+
 
     .contents {
       width: 100%;
       height: 100%;
-      background-color: cornsilk;
   
       .content {
         width: 100%;
         height: calc(100% / 4);
-        background-color: crimson;
       }
     }
   
@@ -156,18 +152,46 @@ ul,li {
     width: 80%;
     height: 100%;
     background-color: azure;
+    overflow: auto;
 
-    .main-img {
+    .container {
       width: 100%;
-      height: 100%;
+      height: 50vh;
+      color: azure;
+    
+
+      .main-img1 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }
+      .main-img2 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }
+      .main-img3 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }
+      .main-img4 {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+        }           
     }
   }
 }
 footer {
   height: 5vh;
-  background-color: darkmagenta;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  color: beige;
+
 }

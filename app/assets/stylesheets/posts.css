@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   color: #333;
   margin: 0 auto;
+  background-color: rgba(17, 1, 17, 0.8);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -25,9 +26,7 @@ ul, li {
   display: flex;
   width: 100vw;
   height: 10vh;
-  position: sticky;
-  top: 0;
-  background-color: aqua;
+  color: beige;
 }
 
 .header-bar .title {
@@ -36,7 +35,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
 }
 
 .header-bar .title .title-name {
@@ -51,7 +49,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: brown;
 }
 
 .header-bar .login-btn {
@@ -60,7 +57,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
 }
 
 .login-modal-wrapper, .signup-modal-wrapper {
@@ -132,42 +128,69 @@ ul, li {
   width: 100vw;
   height: 85vh;
   display: flex;
-  background-color: darkcyan;
 }
 
 .main .side-bar {
   width: 20%;
   height: 100%;
-  background-color: aquamarine;
+  color: beige;
 }
 
 .main .side-bar .contents {
   width: 100%;
   height: 100%;
-  background-color: cornsilk;
 }
 
 .main .side-bar .contents .content {
   width: 100%;
   height: calc(100% / 4);
-  background-color: crimson;
 }
 
 .main .main-wrapper {
   width: 80%;
   height: 100%;
   background-color: azure;
+  overflow: auto;
 }
 
-.main .main-wrapper .main-img {
+.main .main-wrapper .container {
+  width: 100%;
+  height: 50vh;
+  color: azure;
+}
+
+.main .main-wrapper .container .main-img1 {
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+}
+
+.main .main-wrapper .container .main-img2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+}
+
+.main .main-wrapper .container .main-img3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+}
+
+.main .main-wrapper .container .main-img4 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
 }
 
 footer {
   height: 5vh;
-  background-color: darkmagenta;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: beige;
 }
