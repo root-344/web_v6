@@ -28,9 +28,9 @@ ul,li {
   display: flex;
   width: 100vw; 
   height: 10vh;
-  position: sticky;
-    top: 0;
-  background-color: aqua; 
+  color: beige;
+  background-color: rgba(17, 1, 17, 0.8); 
+  
 
   .title {
     width: calc(100% / 3);
@@ -38,7 +38,6 @@ ul,li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
 
     .title-name {
       font-size: 20px;
@@ -52,7 +51,6 @@ ul,li {
     display: flex;
     justify-content: center;
     align-items:center ;
-    background-color: brown;
   }
   .login-btn {
     width: calc(100% / 3);
@@ -60,7 +58,6 @@ ul,li {
     display: flex;
     justify-content: center;
     align-items:center ;
-    background-color: burlywood;
   }
 }
 // モーダル
@@ -128,26 +125,26 @@ ul,li {
   margin-right: 5px;
 }
 
+//メイン
 .main {
   width: 100vw;
   height: 85vh;
   display: flex;
-  background-color: darkcyan;
 
   .side-bar {
     width: 20%;
     height: 100%;
-    background-color: aquamarine;
+    color: beige;
+    background-color: rgba(17, 1, 17, 0.8);
+
 
     .contents {
       width: 100%;
       height: 100%;
-      background-color: cornsilk;
   
       .content {
         width: 100%;
         height: calc(100% / 4);
-        background-color: crimson;
       }
     }
   
@@ -161,7 +158,7 @@ ul,li {
     .container {
       width: 100%;
       height: 50vh;
-      margin-bottom: 5px;
+      color: azure;
     
 
       .main-img1 {
@@ -193,9 +190,10 @@ ul,li {
 }
 footer {
   height: 5vh;
-  background-color: darkmagenta;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  color: beige;
+  background-color: rgba(17, 1, 17, 0.8);
+
 }

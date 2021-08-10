@@ -25,9 +25,8 @@ ul, li {
   display: flex;
   width: 100vw;
   height: 10vh;
-  position: sticky;
-  top: 0;
-  background-color: aqua;
+  color: beige;
+  background-color: rgba(17, 1, 17, 0.8);
 }
 
 .header-bar .title {
@@ -36,7 +35,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
 }
 
 .header-bar .title .title-name {
@@ -51,7 +49,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: brown;
 }
 
 .header-bar .login-btn {
@@ -60,7 +57,6 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
 }
 
 .login-modal-wrapper, .signup-modal-wrapper {
@@ -132,25 +128,23 @@ ul, li {
   width: 100vw;
   height: 85vh;
   display: flex;
-  background-color: darkcyan;
 }
 
 .main .side-bar {
   width: 20%;
   height: 100%;
-  background-color: aquamarine;
+  color: beige;
+  background-color: rgba(17, 1, 17, 0.8);
 }
 
 .main .side-bar .contents {
   width: 100%;
   height: 100%;
-  background-color: cornsilk;
 }
 
 .main .side-bar .contents .content {
   width: 100%;
   height: calc(100% / 4);
-  background-color: crimson;
 }
 
 .main .main-wrapper {
@@ -163,7 +157,7 @@ ul, li {
 .main .main-wrapper .container {
   width: 100%;
   height: 50vh;
-  margin-bottom: 5px;
+  color: azure;
 }
 
 .main .main-wrapper .container .main-img1 {
@@ -196,8 +190,9 @@ ul, li {
 
 footer {
   height: 5vh;
-  background-color: darkmagenta;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: beige;
+  background-color: rgba(17, 1, 17, 0.8);
 }
