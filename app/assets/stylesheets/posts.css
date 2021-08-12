@@ -169,22 +169,22 @@ ul, li {
 .main .main-wrapper .container .main-img2 {
   width: 100%;
   height: 100%;
-  background-size: unset;
-  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/2978cac9b4ddef9d41d5b0b49217a6f6.jpg");
 }
 
 .main .main-wrapper .container .main-img3 {
   width: 100%;
   height: 100%;
-  background-size: contain;
-  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/4aec088f9c4da558fd9130b277b0178e.jpg");
 }
 
 .main .main-wrapper .container .main-img4 {
   width: 100%;
   height: 100%;
-  background-size: auto;
-  background-image: url("https://i.gyazo.com/aadb9f366b9f9d04a2fb3d21d40b5099.jpg");
+  background-size: cover;
+  background-image: url("https://i.gyazo.com/d8507ece72f91d31f01ba3a8f91aad8f.jpg");
 }
 
 footer {
