@@ -155,35 +155,35 @@ ul, li {
 
 .main .main-wrapper .container {
   width: 100%;
-  height: 50vh;
+  height: 100%;
   color: azure;
 }
 
-.main .main-wrapper .container .main-img1 {
+.main .main-wrapper .container #main-img1 {
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-size: contain;
   background-image: url("https://i.gyazo.com/7fc089bf8d14ca055e80220f39d125da.jpg");
 }
 
-.main .main-wrapper .container .main-img2 {
+.main .main-wrapper .container #main-img2 {
   width: 100%;
-  height: 100%;
-  background-size: cover;
+  height: 50%;
+  background-size: contain;
   background-image: url("https://i.gyazo.com/2978cac9b4ddef9d41d5b0b49217a6f6.jpg");
 }
 
-.main .main-wrapper .container .main-img3 {
+.main .main-wrapper .container #main-img3 {
   width: 100%;
-  height: 100%;
-  background-size: cover;
+  height: 50%;
+  background-size: contain;
   background-image: url("https://i.gyazo.com/4aec088f9c4da558fd9130b277b0178e.jpg");
 }
 
-.main .main-wrapper .container .main-img4 {
+.main .main-wrapper .container #main-img4 {
   width: 100%;
-  height: 100%;
-  background-size: cover;
+  height: 50%;
+  background-size: contain;
   background-image: url("https://i.gyazo.com/d8507ece72f91d31f01ba3a8f91aad8f.jpg");
 }
 
