@@ -9,4 +9,5 @@ $(function() {
     $('#signup-modal').fadeOut(0);
     $('#login-modal').fadeOut(0);
   });
+  
 });
